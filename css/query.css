@@ -1,0 +1,456 @@
+@media only screen and (max-width: 1024px){
+    *{
+        box-sizing: border-box;
+    }
+
+    .ca3-scroll-down-link {
+          height: 150px;
+    }
+
+    .intro-pg {
+        height: calc(55vh - 60px);
+    }
+
+    .l1 .pro1,.l1 .pro2,.l1 .pro3 {
+        height: 410px;
+        width: 29%;
+        background-color: #3A3A3A;
+    }
+
+    .pro1, .pro2, .pro3 {
+        height: 380px;
+        width: 29%;
+        background-color: #3A3A3A;
+    }
+
+    
+    .footer {
+        background-color: white;
+        /* background-color: black; */
+        width: 100%;
+        padding: 8%;
+        height: calc(60vh - 60px);
+    }
+    .fcontainer{
+        margin-top: 10%;
+    }
+
+
+} 
+
+@media only screen and (max-width: 1000px){
+    .pic img {
+        height: 430px;
+        width: 320px;
+        border-radius: 20px 0px 0px 20px;
+    }
+    .con-right form {
+        height: 431px;
+        width: 450px;
+        padding: 40px;
+    }
+    .pro1, .pro2, .pro3 {
+        height: 420px;
+    }
+}
+
+@media only screen and (max-width: 795px){
+    *{
+        box-sizing: border-box;
+    }
+
+    .ca3-scroll-down-link {
+          height: 150px;
+    }
+
+    .logo{
+        width: fit-content;
+        
+    }
+    .nav-btn{
+        width: 55%;
+    }
+
+    .intro-pg {
+        height: calc(55vh - 60px);
+    }
+
+    .intro-img img {
+        height: 320px;
+    }
+
+    .about-me {
+        margin-left: 40px;
+        width: 43%;
+    }
+
+    .about-me-head {
+        width: 290px;
+        font-size: 55px;
+    }
+
+    .l1 .pro1,.l1 .pro2,.l1 .pro3 {
+        height: 410px;
+        width: 29%;
+        background-color: #3A3A3A;
+    }
+
+    .pro1, .pro2, .pro3 {
+        height: 380px;
+        width: 29%;
+        background-color: #3A3A3A;
+    }
+
+    
+    .footer {
+        background-color: black;
+        width: 100%;
+        padding: 8%;
+        height: calc(57vh - 60px);
+    }
+    .fcontainer{
+        margin-top: 10%;
+    }
+
+
+    .p2 li {
+        margin-left: 17px;
+    }
+    .pro-logo i {
+        color: #feab00;
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    .pro .stack {
+        margin-bottom: 10px;
+    }
+    .pro .des {
+        font-size: 17px;
+    letter-spacing: 1px;
+    color: #E4E4E4;
+    font-weight: 300;
+    padding: 0px 20px;
+    text-align: center;
+    }
+
+    
+    .con-heading {
+        font-size: 50px;
+    }
+    .c2 {
+        width: 275px;
+        margin: 0px 25px;
+    }
+    .c1, .c3, .c2 {
+        height: 230px;
+    }
+    .pic img {
+        height: 410px;
+        width: 300px;
+        border-radius: 20px 0px 0px 20px;
+    }
+    .con-right form {
+        height: 411px;
+        width: 350px;
+        padding: 40px;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 5% 0%;
+        height: calc(50vh - 60px);
+    }
+    .fcontainer {
+        margin-top: 0%;
+    }
+    .row2{
+        margin-top: 50px;
+    }
+
+
+    .fl2 li:before {
+        margin-right: 15px;
+    }
+    
+}
+
+@media only screen and (max-width: 710px){
+    *{
+        box-sizing: border-box;
+    }
+    .logo {
+        width: fit-content;
+    }
+    .ca3-scroll-down-link {
+        height: 75px;
+     }
+    .nav-btn{
+        display: none;
+    }
+    .vcurr{
+        color: #feab00 !important;
+    }
+    .burger-nav {
+        display: block;
+        color: #E4E4E4;
+        font-size: xx-large;
+        padding: 15px 15px 0px 0px;
+    
+    }
+    .nav-btn-slide {
+        display: none;
+        padding-top: 60px;
+        background-color: #191919;
+        padding-bottom: 15px;
+        transition: all 2s;
+        position: fixed;
+    }
+    .nav-btn-slide li{
+        list-style: none;
+        margin: 20px;
+    }
+    .nav-btn-slide ul a{
+        color: #E4E4E4;
+        text-decoration: none;
+        font-size: large;
+        font-weight: 500;
+        padding-left: 15px;
+    }
+
+    .intro-img img {
+        display: none;
+    }
+
+    .about-me {
+        width: 86%;
+    }
+
+    .intro-pg {
+        overflow: hidden;
+        height: fit-content;
+        padding-top: 60px;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 85%;
+    }
+
+    .projects .l1,.projects  .l2,.projects  .l3, .projects .l {
+        display: block;
+        margin: auto;
+        width: 85%;
+    }
+
+    .l1 .pro1, .l1 .pro2, .l1 .pro3, .pro {
+        width: 100% !important;
+        margin: 20px 0px;
+    }
+
+    .l1 .pro1, .l1 .pro2, .l1 .pro3 {
+        height: 350px;
+    }
+
+    .contact-me .top{
+        flex-wrap: wrap;
+    }
+    .con-heading {
+        font-size: 40px;
+        margin: 40px 0px;
+    }
+
+    .c1, .c2, .c3{
+        width: 225px;
+        margin: 15px;
+    }
+
+    .con-logo {
+        font-size: xxx-large;
+    }
+
+    .con-head {
+        font-size: 18px;
+        font-weight: 600;
+        color: #E4E4E4;
+        margin: 20px 0px 15px 0px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .bottom {
+        margin-bottom: 30px;
+        overflow: hidden;
+        display: block;
+    }
+
+    .bottom .pic, .bottom .con-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .con-right{
+    }
+    .con-right form{
+        border-radius: 0px;
+        margin-top: 20px;
+        padding-bottom: 15px;
+        
+    }
+    .con-btn{
+        margin: 20px auto !important;
+    }
+
+    .pic img {
+        height: 370px;
+        width: 280px;
+        border-radius: 0px;
+    }
+
+    .footer{
+        height: fit-content;
+    }
+    
+    .footer .row1{
+        display: block !important;
+        margin: 0px 30px;
+    }
+    .fl2 {
+        margin: 0px;
+    }
+    .fl2 ul{
+        margin-bottom: 30px;
+    }
+    .fl2 li:before{
+        margin-left: 0px;
+    }
+
+    .fl1,.fl2{
+        margin: 40px 0px;
+        border-bottom: 1px solid gainsboro;
+    }
+    .fheading{
+        margin-top: 40px;
+    }
+
+    .fdetails i{
+        color: #E4E4E4;
+    }
+}
+
+
+@media only screen and (max-width: 420px){
+
+    .logo {
+        width: fit-content;
+    }
+    .about-me{
+        margin: auto;
+    }
+    .ca3-scroll-down-link {
+        height: 50px;
+  }
+}
+
+@media only screen and (max-width: 360px){
+   
+    .intro .l1{
+        margin-bottom: 10px;
+    }
+    .intro .l2 {
+        font-size: 60px;
+    }
+
+    .intro .l3,.intro .l3 span {
+        font-size: 20px;
+        margin-top: 12px;
+    }
+    .intro .l3 span{
+        margin-top: 0px;
+    }
+    .name {
+        font-size: 20px;
+    }
+
+    .about-me-head {
+        width: 290px;
+        font-size: 45px;
+    }
+    .about-me h2 {
+        font-size: 150%;
+    }
+    .intro-details li {
+        font-size: 15px;
+        margin-right: 27px;
+    }
+    .fheading{
+        font-size: large;
+    }
+    .fl2 li a {
+        font-size: medium;
+    }
+    .fdetails-phone,.fdetails-email {
+        font-size: medium;
+    }
+    .row2 {
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 320px){
+   
+    .logo {
+        font-size: 20px;
+    }
+    .intro .l2 {
+        font-size: 50px;
+    }
+
+    .about-me {
+    margin-top: 20px;
+}
+
+    .about-me-head {
+        width: 290px;
+        font-size: 45px;
+    }
+    .about-me h2 {
+        font-size: 150%;
+    }
+    .intro-details li {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    .pro .des {
+        font-size: 15px;
+    }
+    .l1 .pro1, .l1 .pro2, .l1 .pro3 {
+        height: 330px;
+    }
+    
+
+    .con-name, .con-email {
+        height: 35px;
+        width: 95%;
+        font-size: medium;
+    }
+    .con-mess{
+        width: 95%;
+        font-size: medium;
+    }
+    .fheading{
+        font-size: large;
+    }
+    
+}
+
+
+@media only screen and (max-width: 280px){
+    #f-email-i {
+        bottom: 0px;
+    }
+}
